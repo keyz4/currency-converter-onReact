@@ -1,0 +1,115 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;  
+}
+.container{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: url("https://www.livemint.com/lm-img/img/2023/07/16/1600x900/Digital_Currencies_1660189785051_1689495993330.JPG");
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+.converter{
+  display: flex;
+  flex-direction: column;
+  height: 28rem;
+  aspect-ratio: 3/2;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 0.6rem;
+  align-items: center;
+  padding-top: 2rem;
+  backdrop-filter: blur(5px);
+}
+.from {
+  display: flex;
+  background-color: white;
+  height: 8.5rem;
+  width: 35rem;
+  margin: 8px;
+  border-radius: 15px;
+  border: 3px solid grey;
+  padding: 0.7rem;
+  padding-bottom: 1rem;
+}
+.left{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5rem; 
+}
+.right{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  align-items: end;
+  padding-right: 2rem;
+}
+.left label{
+  outline: none;
+  font-size: 1.8rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  color: grey;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.left input{
+  border: none;
+  display: inline-block;
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  width: 5rem;
+}
+.right label{
+  outline: none;
+  font-size: 1.8rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  color: grey;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+.right select{
+  width: 6rem;
+  aspect-ratio: 1/1;
+  border: 2px solid grey;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  background-color: rgb(231, 228, 228);
+  color: black;
+}
+/* .to{
+  display: flex;
+  background-color: white;
+  height: 8.5rem;
+  width: 35rem;
+  margin: 8px;
+  border-radius: 15px;
+  border: 3px solid grey;
+  padding: 0.7rem;
+  padding-bottom: 1rem;
+} */
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  height: 4rem;
+  width: 80%;
+  margin: 8px;
+  font-weight: 500;
+}
